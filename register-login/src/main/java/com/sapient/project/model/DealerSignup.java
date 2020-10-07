@@ -1,4 +1,4 @@
-package com.sapient.project.entity;
+package com.sapient.project.model;
 
 
 import javax.persistence.Column;
@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 @Table(name = "Dealer_auth")
-public class DealerAuth {
+public class DealerSignup {
 	@Id
 	@Column(name = "dealer_userid")
     private String userId;
